@@ -1,0 +1,18 @@
+:root {
+    --dgray: #121518;
+    --mgray: #2E3A47;
+    --light-gray: #f2f0f0;
+}
+body {
+    padding: 50px;
+    margin: 25px;
+    background-color: var(--mgray);
+}
+hr {
+    border-color: var(--dgray);
+    height: 1px;
+}
+h1, p {
+    color: var(--light-gray);
+    text-align: center;
+}
